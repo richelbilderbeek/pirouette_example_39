@@ -15,6 +15,7 @@ n_phylogenies <- 100
 folder_name <- paste0("example_", example_no)
 is_testing <- is_on_ci()
 if (is_testing) {
+  crown_age <- 10
   n_phylogenies <- 2
 }
 
